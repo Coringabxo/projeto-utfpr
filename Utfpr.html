@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTFPR - Universidade Tecnológica Federal do Paraná</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #004c8c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #003366;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #005fa3;
+        }
+        section {
+            padding: 20px;
+        }
+        .course-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .course {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .course h2 {
+            color: #004c8c;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Universidade Tecnológica Federal do Paraná (UTFPR)</h1>
+        <p>Excelência em ensino e inovação tecnológica</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="about">
+        <h2>Sobre a UTFPR</h2>
+        <p>A UTFPR é uma instituição pública de ensino superior localizada no estado do Paraná. Fundada com a missão de promover a educação tecnológica, a universidade oferece cursos de graduação e pós-graduação nas mais diversas áreas do conhecimento. Com um ensino de qualidade e infraestrutura moderna, a UTFPR forma profissionais capacitados para atender às demandas do mercado de trabalho e contribuir com a sociedade.</p>
+    </section>
+
+    <section id="cursos">
+        <h2>Cursos Oferecidos</h2>
+        <div class="course-list">
+            <div class="course">
+                <h2>Engenharia de Computação</h2>
+                <p>Curso focado em formar profissionais para o desenvolvimento de sistemas computacionais, hardware e software, com ênfase em inovação tecnológica.</p>
+            </div>
+            <div class="course">
+                <h2>Engenharia Mecânica</h2>
+                <p>Curso que prepara o aluno para atuar na concepção, análise e desenvolvimento de máquinas e equipamentos, com conhecimentos em processos industriais.</p>
+            </div>
+            <div class="course">
+                <h2>Design de Produto</h2>
+                <p>Formação para profissionais que projetam produtos inovadores, com foco em estética, funcionalidade e sustentabilidade.</p>
+            </div>
+            <div class="course">
+                <h2>Arquitetura e Urbanismo</h2>
+                <p>Curso dedicado à formação de arquitetos capazes de planejar, projetar e executar obras que atendem às necessidades humanas e urbanísticas.</p>
+            </div>
+            <div class="course">
+                <h2>Ciência da Computação</h2>
+                <p>Curso que forma especialistas em programação, inteligência artificial, segurança digital, entre outras áreas tecnológicas do setor computacional.</p>
+            </div>
+            <div class="course">
+                <h2>Engenharia Elétrica</h2>
+                <p>Formação em engenharia elétrica com ênfase em sistemas de energia elétrica, automação e controle.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Para mais informações sobre os cursos e processos seletivos, entre em contato conosco:</p>
+        <p><strong>Email:</strong> contato@utfpr.edu.br</p>
+        <p><strong>Telefone:</strong> (41) 1234-5678</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Universidade Tecnológica Federal do Paraná - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
